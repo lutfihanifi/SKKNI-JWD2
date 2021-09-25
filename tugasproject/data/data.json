@@ -9,14 +9,6 @@
     ],
     [
         "Batik",
-        "Husein Sastranegara (BDO)",
-        "Sultan Iskandarmuda (BTJ)",
-        "100000",
-        100000,
-        200000
-    ],
-    [
-        "Batik",
         "Soekarno-Hatta (CGK)",
         "Hasanuddin (UPG)",
         "890000",
@@ -38,5 +30,37 @@
         1500000,
         130000,
         1630000
+    ],
+    [
+        "Lion Air",
+        "Husein Sastranegara (BDO)",
+        "Hasanuddin (UPG)",
+        1800000,
+        100000,
+        1900000
+    ],
+    [
+        "Sriwijaya Air",
+        "Abdul Rachman Saleh (MLG)",
+        "Ngurah Rai (DPS)",
+        1000000,
+        120000,
+        1120000
+    ],
+    [
+        "Susi Air",
+        "Husein Sastranegara (BDO)",
+        "Inanwatan (INX)",
+        "20000",
+        120000,
+        140000
+    ],
+    [
+        "adam air",
+        "Husein Sastranegara (BDO)",
+        "Ngurah Rai (DPS)",
+        "700000",
+        110000,
+        810000
     ]
 ]
