@@ -3,7 +3,7 @@
 
 <head>
     <title>Membuat Kalkulator Sederhana Dengan HTML, PHP, dan CSS3</title>
-    <link rel="stylesheet" type="text/css" href="style_kalkulator.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style_kalkulator.css">
 </head>
 
 <body>
