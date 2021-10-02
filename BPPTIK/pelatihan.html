@@ -1,18 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+
+    <title>BPPTIK</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="../BPPTIK/assets/css/style.css">
+    <!-- icon -->
+    <link rel="icon" href="../BPPTIK/assets/images/logo_kecil.png">
 </head>
+
 <body>
-    <div class="row">
-        <div class="col-md-3">
 
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <a href="index.html">
+                    <h3><img src="../BPPTIK/assets/images/logo_bpptik.png" alt="" width="200px"></h3>
+                </a>
+                <a href="index.html"><strong><img src="../BPPTIK/assets/images/logo_kecil.png" alt=""
+                            width="50px"></strong></a>
+            </div>
+
+            <ul class="list-unstyled components">
+
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">
+                        <i class="glyphicon glyphicon-home"></i>
+                        Home
+                    </a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li><a href="#">Pelatihan</a></li>
+                        <li><a href="#">Sertifikasi</a></li>
+                        <li><a href="#">Jadwal</a></li>
+                        <li><a href="#">Berita</a></li>
+                        <li><a href="#">Artikel</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#profileSubmenu" data-toggle="collapse" aria-expanded="false">
+                        <i class="glyphicon glyphicon-user"></i>
+                        Profil
+                    </a>
+                    <ul class="collapse list-unstyled" id="profileSubmenu">
+                        <li><a href="profil_singkat.html">Profil Singkat</a></li>
+                        <li><a href="sejarah.html">Sejarah</a></li>
+                        <li><a href="tugasfungsi.html">Tugas dan Fungsi</a></li>
+                    </ul>
+                    <a href="#galeriSubmenu" data-toggle="collapse" aria-expanded="false">
+                        <i class="glyphicon glyphicon-film"></i>
+                        Galeri
+                    </a>
+                    <ul class="collapse list-unstyled" id="galeriSubmenu">
+                        <li><a href="#">Foto</a></li>
+                        <li><a href="#">Video</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+
+                    <div class="navbar-header">
+                        <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                            <i class="glyphicon glyphicon-align-left"></i>
+                            <span>Menu</span>
+                        </button>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a class="nav-link active" href="pelatihan.html">Pelatihan</a></li>
+                            <li><a href="#">Sertifikasi</a></li>
+                            <li><a href="#">Jadwal</a></li>
+                            <li><a href="#">Berita</a></li>
+                            <li><a href="#">Artikel</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <section id="pelatihan">
+                <div class="container">
+                    <div class="col text-center">
+                        <h1 class="fw-bold text-primary">PELATIHAN</h1>
+                        <h4 class="fw-bold mt-3 mb-5">Ikuti Pelatihan Yang Kami Adakan Untuk Meningkatkan Keahlian Anda
+                            Dibidang Teknologi</h4>
+                    </div>
+                    <div class="row justify-content-evenly mt-5">
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <a href="jwd.html"><img src="assets/images/webdev.jpg"
+                                        style="height: 28rem; width: 33rem;" class="card-img-top" alt="card blog 1" />
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold">Junior Web Developer</h4>
+                                    <p class="card-text" style="text-indent: 0.5in; text-align: justify;">Pengembangan
+                                        web (web development) sedang menjadi bidang pekerjaan yang memiliki peningkatan
+                                        peminat dengan cepat karena ketertarikannya. Hampir setiap bisnis-bisnis besar
+                                        di dunia memiliki semacam kehadiran di dalam dunia web. Memiliki situs web dan
+                                        kehadiran di media sosial dengan baik menjadi faktor utama dalam kesuksesan
+                                        bisnis.</p>
+                                    <a href="jwd.html" class="btn btn-primary pt-5">Pelajari lebih lanjut</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <a href="artikel2.html"><img src="assets/images/gd.jpg"
+                                        style="height: 28rem; width: 33rem;" class="card-img-top" alt="card blog 2" />
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold">Graphic Designer</h4>
+                                    <p class="card-text" style="text-align: justify; text-indent: 0.5in;">Graphic
+                                        designer (desainer grafis) merupakan sebuah pekerjaan menciptakan ilustrasi,
+                                        tipografi, fotografi, atau grafis motion baik untuk penerbit maupun media cetak
+                                        dan elektronik. Seorang graphic designer bertanggung jawab atas tampilan pada
+                                        media promosi suatu produk. Tugasnya menyampaikan informasi mengenai suatu
+                                        produk secara menarik.</p>
+                                    <a href="artikel2.html" class="btn btn-primary">Pelajari lebih lanjut</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <a href="#"><img src="assets/images/joo.jpg" style="height: 28rem; width: 33rem;"
+                                        class="card-img-top" alt="card blog 3" /> </a>
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold">Junior Office Operator</h4>
+                                    <p class="card-text" style="text-indent: 0.5in; text-align: justify;">Pada bidang
+                                        operator dalam sebuah perusahaan adalah sistem penggerak untuk berjalannya
+                                        perusahaan.Operator dalam melaksanakan tugas yang di tanggung jawabkan adalah
+                                        dengan menggunaakan perangkaat lunak aplikasi perkantoran dan perangkat keras
+                                        yang disediakan dan ditentukan dimasing-masing perusahaan.</p>
+                                    <a href="#" class="btn btn-primary">Pelajari lebih lanjut</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cleaner">&nbsp;</div>
+                <div class="cleaner">&nbsp;</div>
+            </section>
         </div>
-
-        
     </div>
+
+
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
 </body>
+
 </html>
