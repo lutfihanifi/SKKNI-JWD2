@@ -1,0 +1,25 @@
+{
+  "name": "jobcares",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puspawahyuningtias/Jobcares.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puspawahyuningtias/Jobcares/issues"
+  },
+  "homepage": "https://github.com/puspawahyuningtias/Jobcares#readme",
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "bootstrap": "^5.0.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0"
+  }
+}
